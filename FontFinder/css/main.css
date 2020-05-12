@@ -1,0 +1,258 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+    list-style: none;
+    font-family: 'Noto Sans KR', sans-serif;
+		font-size: 27px;
+}
+html{    min-height: 100%; }
+body {background-color: white; width: 980px;margin: 0; background-color: white;}
+
+a{color: black;}
+p{font-size: 3rem; }
+#header{margin: 0 left; position: fixed; top: 0; left: -650px; 	z-index: 10000;}
+
+
+.header1{
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #c1c1c1;
+		line-height: 150px;
+}
+
+h1{font-size: 1.7rem; margin-bottom: 5px;}
+#navi{width: 100px; height: 100px; position: fixed; top: 30px; left: 25px; background: url(../img/Hamburger_icon.png) no-repeat center; background-size: 100% 100%;}
+#logo p{text-align: center; height: 150px; line-height: 150px;}
+section{
+    margin-top: 150px;
+    background-color: white;
+		width: 980px;
+}
+
+.text{
+    width: 100%;
+    height: 276px;
+		padding-top: 30px;
+		text-align: center;
+		font-size: 33px;
+		background-color: #f4f4f4;
+}
+.button2 {
+  background-color: #919191;
+  color: white;
+	height: 120px;
+	font-size: 33px;
+	border: 2px solid #c1c1c1;
+}
+
+.submit{
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid black;
+    padding-top: 30px;
+}
+.submit p{text-align: center; font-size: 1rem; line-height: 20px;}
+
+#mother{
+    position: 0;
+    width: 980px;
+    height: 2380px;
+		padding-bottom: 250px;
+		justify-content: space-between;
+	  display: flex;
+		flex-wrap: wrap;
+}
+#mother1{
+    position: 0;
+    width: 980px;
+    height: 1428px;
+		padding-bottom: 250px;
+		justify-content: space-between;
+	  display: flex;
+		flex-wrap: wrap;
+}
+#no1:nth-child(2n-1){
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+#no1:nth-child(2n){
+	margin-right: 32px;
+}
+
+#no1{
+    width: 442px;
+    margin-top: 50px;
+    height: 424px;
+    float: left;
+		background-color: #f4f4f4;
+}
+
+
+#NotoSansKR{font-family: 'Noto Sans KR', sans-serif;}
+#DoHyeon{font-family: 'Do Hyeon', sans-serif; }
+#GothicA1{font-family: 'Gothic A1', sans-serif; }
+#BlackHanSans{font-family: 'Black Han Sans', sans-serif;}
+#Sunflower{font-family: 'Sunflower', sans-serif;}
+#NotoSerifKR{font-family: 'Noto Serif KR', serif; }
+#Jua{font-family: 'Jua', sans-serif; }
+#Gugi{font-family: 'Gugi', cursive; }
+#Dokdo{font-family: 'Dokdo', cursive; }
+#Gaegu{font-family: 'Gaegu', cursive; }
+#NanumGothic{font-family: 'Nanum Gothic', sans-serif; }
+#NanumMyeongjo{font-family: 'Nanum Myeongjo', serif; }
+#NanumGothicCoding{font-family: 'Nanum Gothic Coding', monospace; }
+#NanumPenScript{font-family: 'Nanum Pen Script', cursive; }
+#NanumBrushScript{font-family: 'Nanum Brush Script', cursive; }
+
+#bg{
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+}
+
+
+
+#mask2{
+  position:absolute;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100vh;
+  display:none;
+	background: rgba(0,0,0,0.7);
+	z-index: 2;
+}
+
+#footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	flex-wrap: nowrap;
+	/*추후 유동적으로 변경 가능 현재는 절대값을 주어 고정하였음*/
+  /* justify-content: space-between;
+  display: flex; */
+  width: 100%;
+  padding-bottom: 90px;
+	height: 131px;
+	background-color: #c1c1c1;
+}
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	flex-wrap: nowrap;
+	/*추후 유동적으로 변경 가능 현재는 절대값을 주어 고정하였음*/
+  /* justify-content: space-between;
+  display: flex; */
+  width: 100%;
+  padding-bottom: 90px;
+	height: 131px;
+	background-color: #c1c1c1;
+}
+.icon{
+	width: 198px;
+	height: 133px;
+	margin-top: -2px;
+	float: left;
+	display:inline;
+	background-color: #c1c1c1;
+}
+
+#div1{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin-left: 48px;
+	margin-top: 17px;
+}
+#div2{
+	margin: auto;
+	width: 5px;
+	height: 100px;
+	position: fixed;
+	bottom: 107px;
+	left: 196px;
+}
+#div3{
+	margin: auto;
+	width: 5px;
+	height: 100px;
+	position: fixed;
+	bottom: 107px;
+	left: 392px;
+}
+#div4{
+	margin: auto;
+	width: 5px;
+	height: 100px;
+	position: fixed;
+	bottom: 107px;
+	left: 588px;
+}
+#div5{
+	margin: auto;
+	width: 5px;
+	height: 100px;
+	position: fixed;
+	bottom: 107px;
+	left: 784px;
+}
+
+
+.sc1{
+	z-index: 1;
+}
+.sc2{
+	z-index: 0;
+}
+
+.layer-open{
+	overflow:hidden;
+	position: fixed;
+	width: 100%;
+}
+li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  color: white;
+
+}
+ul.zero-size {
+  font-size: 0px;
+	padding: 0;
+}
+ul.zero-size li {
+  font-size: 16px;
+  vertical-align: bottom;
+	  margin-right: -2px;
+}
+
+#aniText{
+	color: #f4f4f4;
+	font-size: 30px;
+	font-weight: bold;
+	opacity: 0.5;
+	width: 950px;
+	height: 50px;
+	position: fixed;
+	bottom:50px;
+	right: -950px;
+}
+#aniText1{
+	color: #f4f4f4;
+	font-size: 30px;
+	font-weight: bold;
+	opacity: 0.5;
+	width: 950px;
+	height: 50px;
+	position: fixed;
+	bottom:50px;
+	right: -950px;
+}

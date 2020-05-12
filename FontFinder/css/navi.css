@@ -1,0 +1,214 @@
+/*네이게이션 설정 */
+#navi1{
+    margin: left;
+    background-color: white; width: 640px;
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    opacity: 1;
+    z-index: 1000;
+    position: relative;
+}
+
+.navi1{
+    height: 325px;
+    padding-top: 50px;
+    padding: 25px;
+    background-color: #c1c1c1;
+}
+.userId{
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  margin-bottom: 28px;
+  margin-top: 15px;
+}
+.flexIcon{
+  width: 100%;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+#edit2{
+    position: relative;
+}
+
+#close{
+    position: relative;
+}
+
+#ID{
+    position: relative;
+    width: 366.5px;
+    margin: left;
+    height: 150px;
+    margin-left: 33.5px;
+    line-height: 150px;
+}
+.userName{
+  width: 360px;
+  margin: left;
+  height: 75px;
+  line-height: 75px;
+  margin-left: 6.5px;
+  overflow: hidden;
+}
+.userEmail{
+  width: 360px;
+  margin: left;
+  height: 75px;
+  line-height: 75px;
+  margin-left: 6.5px;
+  overflow: hidden;
+}
+
+ul{
+    width: 100%;
+    padding-left: 25px;
+}
+
+li{
+    width: 590px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 4rem;
+    margin: 0;
+    color: #aaaaaa;
+
+}
+
+
+
+#edit1{
+    position: fixed;
+    width: 1000px;
+    height: 100vh;
+    transition: all 0.3s;
+    display: none;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    padding-top: 600px;
+    padding-left: -150px;
+    z-index: 3000;
+    top: 0;
+    left: 0;
+}
+
+.wrap{
+  background: white;
+  margin: auto;
+  width: 500px;
+  height: 400px;
+  z-index: 3400;
+  position: relative;
+  border: black 1px #c1c1c1;
+  border-radius: 50px;
+  padding: 50px;
+  background-color: #c1c1c1;
+}
+
+#esc{
+  position: relative;
+  top : -10px;
+}
+#submit{
+}
+#mask{
+  position:absolute;
+  left:0;
+  top:0;
+  width: 1000px;
+  height: 100%;
+  z-index: 3002;
+  display:none;
+}
+#emailText{
+  width: 300px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+
+.button1 {
+  background-color: #919191;
+  border-radius: 8px;
+  color: white;
+  height: 122px;
+  width: 163px;
+  margin-left: 35px;
+  font-size: 30px;
+  border: 0;
+}
+
+.button3 {
+  background-color: #919191;
+  border-radius: 8px;
+  color: white;
+  width: 163px;
+  height: 115px;
+  border: 0;
+  float: left;
+  font-weight: bold;
+}
+.button3:nth-child(1){
+  margin-left: 10px;
+  margin-right: 40.5px;
+}
+.button3:nth-child(2){
+  margin-right: 40.5px;
+}
+.button3:nth-child(3){
+  margin-right: 10px;
+}
+
+#google{
+  border-bottom: 1px solid #595959;
+      text-align: center;
+}
+#naver{
+      border-bottom: 1px solid #595959;
+          text-align: center;
+}
+#bamin{
+      border-bottom: 1px solid #595959;
+          text-align: center;
+}
+
+
+.hidden {height:100%; min-height:100%; overflow:hidden !important; touch-action:none;}
+
+.showText{
+  color: #595959;
+  font-weight: bold;
+}
+
+
+.head{
+  height: 120px;
+  line-height: 50px;
+  font-weight: bold;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  display: flex;
+  float: left;
+  margin-bottom: 30px;
+}
+.head1{
+  height: 100px;
+  line-height: 100px;
+  font-weight: bold;
+  text-align: center;
+  font-size:2rem;
+}
+.cont p{
+  font-size: 34px;
+}
